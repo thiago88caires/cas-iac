@@ -5,7 +5,7 @@ resources:
   Cloud_Machine_1:
     type: Cloud.Machine
     properties:
-      image: Ubuntu
+      image: 'Ubuntu 18'
       flavor: Small
       tags:
         - key: team:IT-One
