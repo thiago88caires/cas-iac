@@ -8,7 +8,7 @@ resources:
       image: Ubuntu
       flavor: Small
       tags:
-        - key: team:TATUBOLA
+        - key: team:IT-One
       networks:
         - name: '${resource.Cloud_Network_1.name}'
       cloudConfig: |
