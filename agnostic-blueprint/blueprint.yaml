@@ -1,5 +1,5 @@
 name: Apache-IT-One
-version: 1
+version: 2
 inputs: {}
 resources:
   Cloud_Machine_1:
