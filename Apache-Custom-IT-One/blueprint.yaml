@@ -1,14 +1,14 @@
-name: Apache-Custom-IT-One
-version: 1
+name: Apache-IT-One
+version: 2
 inputs: {}
 resources:
   Cloud_Machine_1:
     type: Cloud.Machine
     properties:
-      image: 'Ubuntu 18'
+      image: Ubuntu
       flavor: Small
       tags:
-        - key: team:VMUG-Live
+        - key: team:TATUBOLA
       networks:
         - name: '${resource.Cloud_Network_1.name}'
       cloudConfig: |
