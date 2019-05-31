@@ -1,5 +1,5 @@
 name: Apache-Custom-IT-One
-version: 8
+version: 1
 inputs: {}
 resources:
   Cloud_Machine_1:
