@@ -1,0 +1,25 @@
+name: Apache-DEMO
+version: 7
+inputs: {}
+resources:
+  Cloud_Machine_1:
+    type: Cloud.Machine
+    properties:
+      image: Ubuntu
+      flavor: Small
+      tags:
+        - key: team:DEV
+      networks:
+        - name: '${resource.Cloud_Network_1.name}'
+      cloudConfig: |
+        #cloud-config
+        repo_update: true
+        repo_upgrade: all
+        packages:
+         - apache2
+        #Wavefront Proxy
+  Cloud_Network_1:
+    type: Cloud.Network
+    properties:
+      name: public
+      networkType: existing
