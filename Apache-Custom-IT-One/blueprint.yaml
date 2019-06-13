@@ -8,7 +8,7 @@ resources:
       image: Ubuntu
       flavor: Small
       tags:
-        - key: team:DEV
+        - key: team:CREFISA
       networks:
         - name: '${resource.Cloud_Network_1.name}'
       cloudConfig: |
