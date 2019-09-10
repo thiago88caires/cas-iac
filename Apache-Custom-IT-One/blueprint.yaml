@@ -8,7 +8,7 @@ resources:
       image: Ubuntu
       flavor: Small
       tags:
-        - key: team:BMG
+        - key: team:Localiza
       networks:
         - name: '${resource.Cloud_Network_1.name}'
       cloudConfig: |
